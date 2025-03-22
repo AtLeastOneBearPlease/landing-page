@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,10 +10,51 @@ body {
     flex-direction: column;
 }
 
-.header {
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header-wrapper {
     background-color: #1f2937;
+    padding: 24px;
+}
+
+/* All the page's main content needs to be max 1000px wide*/
+.content {
+    width: 1000px;
+}
+
+.header {
+    flex: 0 1 auto;
     color: #f9faf8;
     font-size: 24px;
-    flex: 1 1 auto;
-    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header li {
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style: none;
+}
+
+.header ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-text-wrapper {
+    background-color: #1f2937;
+}
+
+.hero-text {
+    display: flex;
+}
+
+.hero-text > h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
 }
