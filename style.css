@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
     box-sizing: border-box;
 }
 
@@ -49,12 +49,35 @@ body {
     background-color: #1f2937;
 }
 
+.call-to-action {
+    display: flex;
+}
+
+.call-to-action > img {
+    flex: 1 1 auto;
+    width: 100px;
+    height: 100px;
+}
+
 .hero-text {
     display: flex;
+    flex-direction: column;
 }
 
 .hero-text > h2 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+.hero-text > p {
+    color: #e5e7eb;
+}
+
+.hero-text > button {
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #f9faf8;
 }
