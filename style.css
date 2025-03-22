@@ -48,7 +48,7 @@ body {
 .hero-text-wrapper {
     background-color: #1f2937;
     padding: 100px 0px;
-    height: 400px;
+    height: 500px;
 }
 
 .call-to-action {
@@ -56,7 +56,7 @@ body {
 }
 
 .call-to-action > img {
-    flex: 1;
+    flex: 1 1 0px;
 }
 
 .hero-text {
@@ -64,7 +64,7 @@ body {
     flex-direction: column;
     gap: 12px;
     padding-right: 24px;
-    flex: 1;
+    flex: 1 1 0px;
 }
 
 .hero-text > h2 {
