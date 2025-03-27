@@ -15,7 +15,7 @@ body {
     justify-content: center;
 }
 
-.header-wrapper {
+.header-section {
     background-color: #1f2937;
     padding: 24px;
 }
@@ -45,7 +45,7 @@ body {
     gap: 1rem;
 }
 
-.hero-text-wrapper {
+.hero-text-section {
     background-color: #1f2937;
     padding: 100px 0px;
     height: 500px;
