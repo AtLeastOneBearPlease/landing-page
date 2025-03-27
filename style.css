@@ -25,6 +25,10 @@ body {
     width: 1000px;
 }
 
+.default-section-height {
+    height: 500px;
+}
+
 .header {
     flex: 0 1 auto;
     color: #f9faf8;
@@ -85,4 +89,27 @@ body {
     background-color: #3882f6;
     color: #f9faf8;
     border: none;
+}
+
+.info-section {
+    display: flex;
+    border: 3px solid black;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-card-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
 }
