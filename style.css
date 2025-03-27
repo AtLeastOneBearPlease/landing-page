@@ -23,6 +23,8 @@ body {
 /* All the page's main content needs to be max 1000px wide*/
 .content {
     width: 1000px;
+    margin: 0px 16px;
+    min-width: 0;
 }
 
 .default-section-height {
@@ -30,7 +32,6 @@ body {
 }
 
 .header {
-    flex: 0 1 auto;
     color: #f9faf8;
     font-size: 24px;
     display: flex;
@@ -51,7 +52,7 @@ body {
 
 .hero-text-section {
     background-color: #1f2937;
-    padding: 100px 0px;
+    display: flex;
 }
 
 .call-to-action {
