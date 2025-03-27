@@ -26,7 +26,7 @@ body {
 }
 
 .default-section-height {
-    height: 500px;
+    height: 450px;
 }
 
 .header {
@@ -52,15 +52,16 @@ body {
 .hero-text-section {
     background-color: #1f2937;
     padding: 100px 0px;
-    height: 500px;
 }
 
 .call-to-action {
     display: flex;
+    align-items: center;
 }
 
 .call-to-action > img {
-    flex: 1 1 0px;
+    min-width: 0%;
+    flex: 1 1 0%;
 }
 
 .hero-text {
@@ -68,7 +69,7 @@ body {
     flex-direction: column;
     gap: 12px;
     padding-right: 24px;
-    flex: 1 1 0px;
+    flex: 1 1 0%;
 }
 
 .hero-text > h2 {
