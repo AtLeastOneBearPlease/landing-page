@@ -148,3 +148,13 @@ body {
 .quote-section {
     background-color: #e5e7eb;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.attribution {
+    align-self: flex-end;
+}
