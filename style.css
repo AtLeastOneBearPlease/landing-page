@@ -98,7 +98,7 @@ body {
     display: flex;
     height: 100%;
     min-height: 450px;
-    margin: 16px 16px;
+    padding: 16px 16px;
 }
 
 .info {
