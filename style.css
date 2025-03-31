@@ -147,14 +147,42 @@ body {
 
 .quote-section {
     background-color: #e5e7eb;
+    padding: 120px 0px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 700px;
+}
+
+.quote-text {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
 }
 
 .attribution {
+    margin-top: 16px;
     align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    min-height: 250px;
+}
+
+.sign-up {
+    width: 800px;
+    padding: 0px 16px;
+    height: 50%;
+    background-color: #3882f6;
+    border-radius: 10px;
 }
