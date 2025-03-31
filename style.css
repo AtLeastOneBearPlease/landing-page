@@ -22,7 +22,7 @@ body {
 
 /* All the page's main content needs to be max 1000px wide*/
 .content {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0px 16px;
     min-width: 0;
 }
