@@ -180,11 +180,25 @@ body {
 }
 
 .sign-up {
+    display: flex;
     width: 800px;
     padding: 0px 16px;
     height: 125px;
     background-color: #3882f6;
     border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 48px;
+}
+
+.sign-up-text-title,
+.sign-up-text-body {
+    color: #e5e7eb;
+}
+
+.sign-up-text-title {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 #call-to-action-button {
