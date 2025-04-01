@@ -84,7 +84,7 @@ body {
     color: #e5e7eb;
 }
 
-.hero-text > button {
+.sign-up-button {
     width: 100px;
     border-radius: 8px;
     padding: 8px 0px;
@@ -175,14 +175,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
-    min-height: 250px;
+    height: 300px;
+    min-height: 300px;
 }
 
 .sign-up {
     width: 800px;
     padding: 0px 16px;
-    height: 50%;
+    height: 125px;
     background-color: #3882f6;
     border-radius: 10px;
+}
+
+#call-to-action-button {
+    border: 2px solid white;
 }
